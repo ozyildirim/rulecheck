@@ -16,12 +16,6 @@
        "name" : "example_rules.self_disabling_rule"
     },
     {
-      "name" : "example_rules.input_touches_SRCML",
-      "settings" : {
-         "word_to_find" : "input"
-      }
-      },
-    {
        "name" : "example_rules.indentation_sensitive_rule"
     },                        
     {
@@ -29,6 +23,12 @@
        "settings" : {
           "word_to_find" : "return"
        }
-    }
+    },
+    {
+      "name" : "example_rules.inputTouchesSrcml",
+      "settings" : {
+         "word_to_find" : "input"
+      }
+   }
   ]
 }

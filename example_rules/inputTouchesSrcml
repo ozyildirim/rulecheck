@@ -4,7 +4,7 @@
 import re
 from rulecheck import rule
 
-class rule_with_settings(rule.Rule):
+class input_touches_SRCML(rule.Rule):
 
     # Custom settings are provided to the rule's init method as the
     # second parameter.
